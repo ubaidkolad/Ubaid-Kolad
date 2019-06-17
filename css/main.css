@@ -1,0 +1,127 @@
+html,
+body {
+  scroll-behavior: smooth;
+  height: 100%;
+  font-family: "Raleway", sans-serif;
+}
+
+#home {
+  height: 100%;
+}
+
+#contact {
+}
+
+.navbar {
+  background-color: #161a1b;
+}
+
+#typedd {
+  padding-top: 7em;
+  padding-left: 2em;
+  font-size: 30px;
+  color: white;
+}
+
+#typed {
+  color: #0380ac;
+}
+
+.navbar-brand:hover {
+  color: white;
+  opacity: 0.5;
+}
+
+.nav-item:hover {
+  opacity: 0.5;
+  color: #0380ac;
+}
+
+#about {
+  height: 100%;
+  padding-top: 6em;
+}
+
+#about-content {
+  margin-right: 200px;
+  background: aqua;
+  opacity: 0.7;
+  padding-right: 3em;
+  border: 1px solid black;
+  margin-left: 50px;
+  border-style: inset;
+  font-family: "Neucha", cursive;
+  font-size: 20px;
+}
+
+.jumbotron {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#project {
+  background-image: url("img/project.jpg");
+  background-size: cover;
+}
+.box-shadow:hover {
+  opacity: 0.5;
+}
+#website {
+  transition: box-shadow 0.3s;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  margin-left: 13px;
+  margin-bottom: 15px;
+}
+#website:hover {
+  box-shadow: 0 0 11px rgba(0, 255, 255, 1);
+}
+
+.row {
+  margin-top: auto;
+  padding-left: 32rem;
+  padding-bottom: 6rem;
+}
+
+#my-projects {
+  margin-bottom: 80px;
+  padding-top: 5rem;
+  padding-left: 34rem;
+  color: #0380ac;
+  text-shadow: 2px;
+}
+
+#icon1 {
+  display: block;
+  width: 5%;
+  padding-right: 4.2em;
+  font-size: 55px;
+  height: 10%;
+  padding-top: 4em;
+}
+
+#icon2 {
+  padding-left: 1em;
+  display: block;
+  padding-bottom: 20em;
+  font-size: 55px;
+  width: 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+#scroll {
+  padding-left: 3em;
+  font-size: 20px;
+  color: #0380ac;
+  opacity: 0.3;
+}
+
+.navbar-toggler-icon {
+  color: white;
+}
+
+@media only screen (min-width: 400px) {
+  background-image: url("img/contact.jpg");
+}
